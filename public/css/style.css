@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+*{ box-sizing: border-box;
+    padding: 0;
+    margin: 0;}
+
+body {
+    width: 100vw;
+}
+
+p {    margin: 0;}
+h1, h2, h3, h4,h5{
+    margin: 0;
+}
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+.codinh
+{
+    z-index:1000 ;
+    position: relative;
+    top: 0px;
+    width: 100%;
+
+}
+.thanhtimkiem
+{
+    display: inline-block;
+}
+
+.chumauxanh{
+    color:#2569C8;
+}
+.navdau
+{
+    z-index:999 ;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+
+}
+.pssd
+{
+    position: relative;
+}
+.logo
+{
+   
+    height: 40px;
+    width: auto;
+}
+.bg-blue
+{
+background-color: #004eba;
+}
+.nav-dark
+{
+    color: #fff;
+}
+.bg-tim
+{
+    width: 100%;
+    background-color: #670068;
+    position: relative;
+}
+.anhconmeo
+{
+    height: 350px;
+    width: auto;
+}
+.anhhoacuc
+{
+    height:auto;
+    width: 550px;
+}
+.anhcaila{
+    position: absolute;
+    display: inline-block;
+   margin-left: -530px;
+   margin-top: 100px;
+}
+.mauchutrang
+{
+    color: #fff;
+}
+.cangiua
+{
+   display: inline-block;
+   padding-top: 200px;
+   padding-bottom: 200px;
+}
+.matcuoi
+{
+     position: absolute;
+    display: inline-block;
+   margin-left: -30px;
+   margin-top: -25px;
+}
+.matcuoi2
+{
+    height: 50px;
+    width: auto;
+    position: absolute;
+    display: inline-block;
+   margin-left: -60px;
+   margin-top: -250px;
+    }
+.amatcuoi2
+{
+        /* position: absolute;
+        display: inline-block; */
+        width: 70px;
+        height: auto;
+    }
+.shopnow
+{
+    text-align: center;
+    height: 35px;
+    width:140px;
+    background-color:#fd9000;
+    border-radius: 100px;
+   
+}
+
+.sub
+{
+    text-align: center;
+    height: 50px;
+    width:150px;
+    background-color: #2569c8;
+    border-radius: 100px;
+    position: relative;
+   
+}
+
+.nenhinhconca
+{
+    height: 600 px;
+    width: auto;
+    margin-top: 50 px;
+    background-image: url(https://wpbingosite.com/wordpress/pezoo/wp-content/uploads/2023/01/4-2.jpg);
+    background-repeat: no-repeat;
+}
+.bg-xanh
+{
+    background-color: #00680f;
+}
+.bg-den
+{
+    background-color: #000000;
+}
+.noidungfooter
+{
+    color: #fff;
+    border-bottom: #fff;
+}
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.thanhtimkiem
+{
+    display: inline;
+    width: 100px;
+    height: 30px;
+}
+.broderleftright
+{
+    border-left: #383838 solid 1px;
+    border-right: #383838 solid 1px;
+}
+.abc
+{ 
+    height: 185px;
+    width: auto;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.food
+{
+    position: relative;
+    text-align: center;
+}
+.tensanpham
+{
+    position: relative;
+}
+.nutmuahang
+{
+    position: absolute;
+    left:40%;
+    top:90%;
+}
+.nutmuahangcatfood
+{
+    position: absolute;
+    left:30%;
+    top:80%;
+}
+
+.cangiuashopnow
+{
+margin-bottom: 0;
+}
+
+.btn-shopnow{
+    padding: 10px 30px  ;
+    background-color: #004eba;
+    border-radius: 999px;
+    font-size: 16px;
+    /* text-decoration: none; khoong cos daasu gachj chaan */
+    text-decoration: none;
+    color: #fff;
+}
+.btn-see{
+    padding: 10px 30px  ;
+    background-color:#fd9000;
+    border-radius: 999px;
+    font-size: 16px;
+    /* text-decoration: none; khoong cos daasu gachj chaan */
+    text-decoration: none;
+    color: #fff;
+}
+.btn-shopnowh
+{
+    padding: 10px 30px  ;
+    background-color:#fd9000;
+    border-radius: 999px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+}
+.tensanpham
+{
+    text-decoration: none;
+    color: #000000;
+}
+.trangchu
+{
+    width: 50px;
+    height: 50px;
+    z-index: 1001;
+    position: fixed;
+    background-color: aliceblue;
+    border: #000 solid 1px;
+    border-radius: 50%;
+    right:20px;
+    top:90%;
+    text-align: center;
+    padding: 10px 10px  ;
+}
+
+.content-element {
+   background-color: #f7f7f7;
+}
+.items{
+    display: block;
+    margin-bottom: 25px;
+}
+.item-icon{
+    font-size: 2em;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.item-content h4{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.item-content p{
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+
+}
+.thembroder
+{
+    border-left: #000 solid 1px;
+    border-right: #000 solid 1px;
+    box-sizing: border-box;
+}
+.content .bg-xanh4{
+width: 100%;
+}
+.mauxanh
+{
+    display: inline-block;
+width: 20px;
+height: 20px;
+background-color: #004eba;
+border-radius: 50px;
+border: #000 solid 1px;
+}
+.maudo
+{  
+    display: inline-block;
+    width: 20px;
+height: 20px;
+background-color: #ba005d;
+border-radius: 50px;
+border: #000 solid 1px;
+}
+.mautim
+{  
+    display: inline-block;
+    width: 20px;
+height: 20px;
+background-color: #7600ba;
+border-radius: 50px;
+border: #000 solid 1px;
+}
+.mauvang
+{  
+    display: inline-block;
+    width: 20px;
+height: 20px;
+background-color:#fcff30;
+border-radius: 50px;
+border: #000 solid 1px;
+}
+.maucam
+{  
+display: inline-block;
+width: 20px;
+height: 20px;
+background-color: #ff2600;
+border-radius: 50px;
+border: #000 solid 1px;
+}
+.shopkitten
+{
+    position: relative;
+}
+.noidung
+{
+    position: absolute; 
+    top:100px;
+    left:50px;
+    text-align: left;
+}
+.khungemail
+{
+    display: inline-block;
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+}
+.sub
+{  width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    display: inline-block;
+    border: #000000 solid 1px;
+    color: #fff;
+   margin-top: 0px
+   
+}
+.logoicon
+{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: #000000 solid 1px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.anhlogo
+{
+    margin: 60px 35px;
+    height: 80px;
+    width: auto;
+}
+.logogiua
+{
+    margin-left: 60px;
+}
+.chutrenbg-tim
+{
+    text-align: center;
+}
+.nodungfotter
+{
+    border-bottom: #ffffff4f solid 1px;
+}
+.thanhconca
+{
+    margin-top: -20px
+}
+.logocenter
+{
+    margin-left: 20%;
+}
+.navletrai
+{
+    margin-left: 5%;
+}
+.vanbanfootter
+{
+    color: #FFF;
+    margin-top: 100px;
+
+}
+ul {
+    list-style: none;
+  
+    }
+.ndf{
+    text-decoration: none;
+    color: #FFF;
+}
+.anhcho
+{
+    height: auto;
+    width: 100%;
+}
+.ic
+{
+ /* display: inline-block;
+ position: absolute; */
+}
+/* .ica
+{ 
+    position: absolute;
+    margin-left: 10px;
+    display: inline-block;
+}
+.icb
+{ position: absolute;
+    margin-left: 10px;
+    display: inline-block;
+}
+.icc
+{ position: absolute;
+    margin-left: 10px;
+    display: inline-block;
+}
+.icd
+{ position: absolute;
+    margin-left: 10px;
+    display: inline-block;
+} */
+.taphopicon
+{
+    margin-left: -100px;
+position: relative;
+}
+.phannoidungtrongbg-tim
+{
+    height: 300px;
+    width: 400px;
+}
+.iconshop
+{
+    margin-left: 30%;
+}
+.dieuchinhicon
+{
+    width: 300px;
+}
+
+@media(min-width: 576px){
+    .food
+{
+    position: relative;
+    text-align: center;
+}
+    .tensanpham
+{
+    position: relative;
+}
+.nutmuahang
+{
+    position: absolute;
+    left:45%;
+    top:90%;
+}
+}   
+@media(min-width: 768px){
+    .shopkitten
+{
+    position: relative;
+}
+.noidung
+{
+    position: absolute; 
+    top:80px;
+    left:50px;
+    text-align: left;
+
+}
+    .tensanpham
+    {
+        position: relative;
+    }
+    .nutmuahang
+    {
+        position: absolute;
+        left:40%;
+        top:90%;
+    }
+    .nutmuahangcatfood
+{
+    position: absolute;
+    left:35%;
+    top:80%;
+}
+    .iconshop
+{
+    margin-left: 0;
+}
+    .items{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    padding: 10px 0;
+    }
+    .chutrenbg-tim
+{
+    text-align: left;
+    
+}
+.ic{
+    font-size: 30px;
+    color: #FFF;
+}
+.ic:hover{
+    color: #ff00c8;
+}
+.ics{
+    font-size: 20px;
+    color: #FFF;
+}
+.khungtimkiem
+{
+    width: 250px;
+}
+.item-content h4{
+    text-align: unset;
+}
+
+.content-element .col-md-4:nth-child(2){
+    border-right: 1px solid #000 ;
+     border-left: 1px solid #000 ;
+}
+.nenhinhconca
+{
+    height: 200px;
+    text-align: center;
+}
+
+}
+@media(min-width: 992px){
+    .nutmuahang
+    {
+        position: absolute;
+        left:32%;
+        top:90%;
+    }
+    .nutmuahangcatfood
+{
+    position: absolute;
+    left:20%;
+    top:80%;
+}
+.noidung
+{
+    position: absolute; 
+    top: 150px;px;
+    left:50px;
+    text-align: left;
+
+}
+.nenhinhconca
+{
+    height: 200px;
+}
+}
+
